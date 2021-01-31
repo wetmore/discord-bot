@@ -54,6 +54,9 @@ class RemindMe(commands.Cog):
 
     @commands.command()
     async def remindme(self, ctx, *, arg):
+        """
+        Set a reminder for yourself
+        """
         match = re.match('(.*?)"(.+?)"', arg)
 
         if match:

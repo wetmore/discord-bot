@@ -11,6 +11,7 @@ spotipy = "^2.16.1"
 peewee = "^3.14.0"
 parsedatetime = "^2.6"
 pytz = "^2020.5"
+python-dotenv = "^0.15.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
