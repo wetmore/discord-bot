@@ -1,2 +1,6 @@
 *.db
 __pycache__
+.venv
+.vscode
+*.egg-info
+
